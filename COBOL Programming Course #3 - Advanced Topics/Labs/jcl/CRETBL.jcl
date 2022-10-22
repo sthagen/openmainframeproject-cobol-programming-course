@@ -1,4 +1,4 @@
-//CREATE1   JOB 1                                                       
+//CREATE1   JOB 1,NOTIFY=&SYSUID
 //***************************************************/
 //* Copyright Contributors to the COBOL Programming Course 
 //* SPDX-License-Identifier: CC-BY-4.0
@@ -33,4 +33,5 @@
                    USING STOGROUP DB2DISK  PRIQTY 12 ERASE NO           
                    BUFFERPOOL BP0 CLOSE NO;                             
 --*******************************************************               
-  COMMIT;                                                               
+  COMMIT;
+/*
